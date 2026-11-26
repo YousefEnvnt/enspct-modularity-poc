@@ -1,0 +1,11 @@
+{
+  "nav": { "title": "Grievances" },
+  "heading": "Grievances",
+  "approve": "Approve",
+  "col": {
+    "id": "ID",
+    "title": "Title",
+    "status": "Status",
+    "by": "Submitted by"
+  }
+}

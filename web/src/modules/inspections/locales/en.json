@@ -1,0 +1,11 @@
+{
+  "nav": { "title": "Inspections" },
+  "heading": "Inspections",
+  "approve": "Approve",
+  "col": {
+    "id": "ID",
+    "site": "Site",
+    "result": "Result",
+    "inspector": "Inspector"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "home": "Home",
+  "homeTitle": "Modularity POC",
+  "homeDescription": "Each module owns its routes, pages, API calls, translations and permissions in one folder. To remove a module, delete its folder and unregister it. Use the navigation to open a module."
+}

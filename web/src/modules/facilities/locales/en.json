@@ -1,0 +1,11 @@
+{
+  "nav": { "title": "Facilities" },
+  "heading": "Facilities",
+  "approve": "Approve",
+  "col": {
+    "id": "ID",
+    "site": "Site",
+    "status": "Status",
+    "manager": "Manager"
+  }
+}

@@ -1,0 +1,22 @@
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      root: web/
+      glob: "*.{ts,tsx,mjs}"
+      exclude: 'src/routeTree\.gen\.ts$'
+      run: pnpm exec eslint --max-warnings 0 -- {staged_files}
+    architecture:
+      root: web/
+      glob: "*.{ts,tsx,cjs}"
+      run: pnpm run depcruise
+
+pre-push:
+  commands:
+    check:
+      run: pnpm check
+
+commit-msg:
+  commands:
+    message-format:
+      run: node scripts/check-commit-message.mjs "{1}"
